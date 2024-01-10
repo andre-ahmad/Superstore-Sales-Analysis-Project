@@ -1,0 +1,574 @@
+﻿SALES SUPERSTORE ANALYSIS
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prepared By: Andre Ahmad Al Farisi
+Created at : Januari 5, 2024
+
+
+
+
+
+
+Table Of Contents
+
+
+
+
+Abstrak        3
+Introduction        4
+Objective        5
+Analysis        6
+Conclusion        16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstrak
+
+
+
+
+
+
+
+
+A sales data set was found on Kaggle which is considered to be the sales data of a superstore. The dataset contains sales data of 4922 different orders, 1326 of which have been shipped, 3 product categories, 1849 product names, 529 cities, 1 country and 49 regions. This analysis is a descriptive analysis which aims to find insight with extensive exposure, exploring sales trends and customer behavior, which will be developed through a list of questions that will describe the purpose of the analysis.
+
+
+Keywords : Analysis Descriptive, Sales, Kaggle, Superstore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+
+
+
+
+The dataset contains information about sales from a superstore, including details such as order ID, transaction date, customer name, customer ID, customer type, city, country, product category, product subcategory, product name, country, city, region and sales. In general, this dataset contains a combination of product and customer data that is tied into the sales system. The dataset contains data with 9800 rows and 18 columns.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Objective
+
+
+
+
+
+
+Objective / Goal Analysis
+
+
+The objective of the analysis is to find insights from datasets such as sales trends, best-selling products, certain seasonalities that influence sales, understand customer profiles, purchasing habits, and evaluate sales in various regions, so that the resulting insights can provide a complete and broad description for decision making business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Analysis
+
+
+* Analysis steps
+
+
+1. Eksploratory Data Analysis (EDA) Using BigQuery (SQL Language)
+
+
+Identify descriptive statistics, distributions, and general trends in datasets.
+
+
+* Number of distinct customer names
+  
+
+* First order_date and Final Order_date
+  
+
+* Dataset range
+  
+
+* Sales range
+  
+
+* Sales distribution (Mean, Median Sales)
+  
+
+* Number of distinct state
+  
+
+
+
+
+
+
+
+* Number of distinct city
+  
+
+* Number of distinct segment
+  
+
+* Number of distinct product name
+  
+
+* Number of distinct product kategory
+  
+
+* Number of distinct ship mode
+  
+
+* Sales Distribution (histogram sales)
+  
+
+
+
+2. Analysis Sales Superstore
+
+
+A more granular analysis of the sales data of the global superstore using SQL. The analysis aimed to answer the following questions about the dataset:
+
+
+* What was the most profitable region, state, and city in the dataset?
+  
+
+  
+
+  
+
+* What was the most profitable category and sub category?
+  
+
+
+
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+* What is the most profitable in the product ?
+  
+
+* What is the most profitable based on ship mode ?
+1. The ship mode which the most used by customers
+  
+
+1. What Shipmode was the most profitable
+  
+
+* What the difference in days between the order date and the ship date affect sales?
+  
+
+* What was the most profitable year ? 
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+Conclusion
+The objective of the analysis can be explained through various questions
+
+
+1. What was the most profitable region, state, and city in the dataset ?
+  
+
+  
+
+The most profitable sales results when viewed from the regional division are Western. Western contributed the most sales proceeds amounting to $ 710.219,68. These results will become the center of attention for sales performance, so that we can dig deeper into sales mechanisms, customer habits, and maintain and even improve sales quality. 
+Then specifically about the profitable region, which State in the western dominates sales more is California
+  
+
+  
+
+In the region of western was the state most profitable is California with sales amount of $ 446.306,46, and contribution of sales in state of california is 52,6% 
+
+
+
+
+
+
+
+
+
+
+2. What was most profitable based on category and subcategory ?
+  
+
+  
+
+Technology was most profitable in the category with total sales $ 827,455.00 and the most profitable product name in the technology category is “ Canon image Class 2200 Advance Copier ” amount of $ 61.599,82
+  
+
+  
+
+
+
+
+
+The biggest sales contributor in the sub category is phones with sales of $327.785,45 and the best selling product from the phones subcategory is Samsung Galaxy Mega 6.3 with $12.996,60. From the information above, it shows that products from categories or subcategories that contain elements of technology are the biggest contributors to sales and are the most popular.
+
+
+
+
+
+
+
+
+
+
+3. What is the most profitable based on product ?
+  
+
+Overall, the product with the most sales is the Canon Image Class 2200 Advanced Copier product for $ 61.599,82 which is also included in the technology category.
+
+
+
+
+4. What is the most profitable based on ship mode ?
+  
+
+  
+
+The most widely used shipping mode is standard class with count is 5,859 and the most profitable is Standard Class with sales $ 1.340.831,78. From the data above, it shows that customers prefer the standard class delivery mode, this may indicate customers' financial conditions, customer habits, or good service that is satisfactory for customers.
+
+
+5. What the difference in days between the order date and the ship date affect sales?
+  
+
+There is no correlation between the length of time between order date and delivery date. Shown in the correlation coefficient value -0.01. 
+From this question, investigate whether the difference between the order date and the shipping date can influence sales, whether the greater the difference in days between order and shipping, the sales decrease or vice versa. It turns out that the relationship between these two variables does not have a positive correlation, the correlation value shows -0.001. This means that the difference in days does not affect sales.
+
+
+6. What is the most profitable year during the order period ?
+  
+
+The most profitable year was 2018 with the most sales of $722.052,02, from this information you can find out more about the causes and effects that provided the most profitable sales in that year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. What is the sales trend from year to year ?
+  
+
+
+
+Sales trends from year to year are unstable, there was a decline in sales from 2015 to 2016, then increased again the following year. The peak increase at the end of the period was in 2018 with sales of $722.052,02. 2015 to 2016 became the center of attention as material for evaluation and understanding of field conditions in that year.
+  
+
+The trend of the difference in sales from year to year decreased from 2015 to 2016 amounting to -$-$20,420.20 with a percentage decrease of -4%, then in the following year sales increased by $140,756.54 with a percentage increase from the previous 31%, in the final year sales increased not too significant, not bigger than the previous $121,859.47 with a percentage of 20%
+
+
+Appendix
+
+
+* To access the data repository click Here
+* To acces the spreadsheet chart click Her
